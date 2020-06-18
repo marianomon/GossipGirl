@@ -1,0 +1,249 @@
+html{
+    font-family: Helvetica;
+    background-size: 100%;
+    background-image: url(../img/GossipGirlWallpaper_L.jpg);
+}
+
+.Titulo{
+    margin-bottom: -10%;
+    padding-top: 5%;
+}
+
+.Titulo img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 65%;
+}
+
+.columna_izquierda{
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+    float: left;
+    max-width: 15%;
+    background-color: rgba(0, 0, 0, 0.541);
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px;
+    padding: 10px
+}
+
+@media (max-width: 1250px){
+    .columna_izquierda{
+        margin-left: 13%;
+    }
+}
+
+.columna_izquierda h2{
+    font-size: 34px;
+    margin-bottom: -10px;
+}
+
+.columna_izquierda p{
+    margin-left: 10px;
+}
+
+.columna_izquierda a{
+    text-decoration: none;
+}
+
+.bienvenida h2{
+    color:rgb(109, 143, 255);
+}
+
+
+.gossip h2{
+    color: rgba(255, 202, 103, 0.801);
+}
+
+.pics h2{
+    color: rgb(255, 255, 98);
+}
+
+.fiestas h2{
+    color: pink;
+}
+
+.links h2{
+    color: rgb(255, 75, 75);
+}
+
+.bloque_principal{
+    margin-left: 2%;
+    padding-bottom: 1%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+.bloque_principal img{
+    width: 330px;
+    margin-left: 16%;
+}
+
+.bloque_principal h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.bloque_principal .pie{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    align-self:  center;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.firma {
+    text-align: right;
+    margin-right: 4%;
+    color: pink;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.562);
+}
+
+.columna_derecha{
+    float: left;
+    margin-left: 5%;
+}
+
+.home{
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    margin-left: 5%;
+    background-color: #b8b991;
+    border-radius: 50%;
+}
+
+.home a{
+    text-decoration: none;
+}
+
+.img_crop{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img_crop img{
+    display: inline;
+    margin: 0 auto; 
+    height: 150%;
+    width: auto;
+}
+
+.home p{
+    text-align: center;
+    margin-top: -2px;
+    margin-bottom: -5px;
+    color: black;
+}
+
+
+
+
+.galeria{
+    background-color: rgba(222, 184, 135, 0.342);
+    border-radius: 20px;
+    padding-top: 1%;
+    padding-right: 1%;
+    margin-top: 4%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galeria img{
+    width: 20%;
+    transition: ease-out .3s;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+.galeria img:hover{
+    transition: ease-in .4s;
+    transform: scale(1.2);
+    box-shadow: 5px 5px 10px black;
+}
+
+.home_boton{
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b8b991;
+    border-radius: 50%;
+}
+
+.home_boton p{
+    text-align: center;
+    margin-top: -2px;
+    margin-bottom: -5px;
+    color: black;
+}
+
+.home_boton a{
+    text-decoration: none;
+}
+
+.tabla_posts{
+    position: relative;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.post img{
+    margin-left: 18%;
+    width: 60%;
+}
+
+.post h2{
+    text-align: center;
+}
+
+.musica{
+    top: 1%;
+    position: absolute;
+}
+
+.musica audio{
+    opacity: 0.3;
+    position:sticky;
+    transition: ease-out 0.15s;
+    height: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.musica audio:hover{
+    opacity: 1;
+    transition: ease-in 0.3s;
+}
+
+.mensaje{
+    color: khaki;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
